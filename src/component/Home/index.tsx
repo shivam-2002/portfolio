@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
+import { useEffect, useState } from "react";
 import StyledHome from "./styled";
 import profilePic from "assets/profile_pic.png";
 import Tree from "component/Tree";

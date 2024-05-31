@@ -1,4 +1,3 @@
-import React from "react";
 import StyledProject from "./styled";
 import videoFile from "assets/final_code_editor.mov";
 import videoFile1 from "assets/ecommerce.mov";

@@ -1,4 +1,3 @@
-import React from "react";
 import StyledSkill from "./styled";
 
 const Skill = () => {

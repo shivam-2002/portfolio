@@ -1,10 +1,5 @@
-import React from "react";
 import StyledAbout from "./styled";
-import videoFile from "assets/video2.webp";
-import growthImg from "assets/growth.webp";
 import abc from "assets/abc.webp";
-import boy from "assets/boy.gif";
-import boy1 from "assets/boy1.gif";
 import coding from "assets/coding.gif";
 
 const About = () => {

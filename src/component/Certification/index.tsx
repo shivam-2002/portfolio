@@ -1,4 +1,3 @@
-import React from "react";
 import StyledCertification from "./styled";
 import nptel from "assets/NPTEL_Programming In Java.jpg";
 import courseraOS from "assets/os.png";
