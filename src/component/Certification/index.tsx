@@ -44,7 +44,7 @@ const Certification = () => {
               <ul>
                 <li>Programming in Java</li>
                 <div className="img-container">
-                  <img src={nptel} className="img" />
+                  <img src={nptel} className="img" alt="" />
                 </div>
               </ul>
             </dd>
@@ -55,44 +55,44 @@ const Certification = () => {
               <ul>
                 <li>Operating System</li>
                 <div className="img-container">
-                  <img src={courseraOS} className="img" />
+                  <img src={courseraOS} className="img" alt="" />
                 </div>
 
                 <li>Machine Learning</li>
                 <div className="img-container">
-                  <img src={courseraML1} className="img" />
+                  <img src={courseraML1} className="img" alt="" />
                 </div>
                 <div className="img-container">
-                  <img src={courseraML2} className="img" />
+                  <img src={courseraML2} className="img" alt="" />
                 </div>
                 <div className="img-container">
-                  <img src={courseraML3} className="img" />
+                  <img src={courseraML3} className="img" alt="" />
                 </div>
 
                 <li>HTML, CSS, JS</li>
                 <div className="img-container">
-                  <img src={webDev} className="img" />
+                  <img src={webDev} className="img" alt="" />
                 </div>
 
                 <li>Python</li>
                 <div className="img-container">
-                  <img src={python1} className="img" />
+                  <img src={python1} className="img" alt="" />
                 </div>
                 <div className="img-container">
-                  <img src={ptyhon2} className="img" />
+                  <img src={ptyhon2} className="img" alt="" />
                 </div>
 
                 <li>Algorithm</li>
                 <div className="img-container">
-                  <img src={algorithm1} className="img" />
+                  <img src={algorithm1} className="img" alt="" />
                 </div>
                 <div className="img-container">
-                  <img src={algorithm2} className="img" />
+                  <img src={algorithm2} className="img" alt="" />
                 </div>
 
                 <li>Covid-19</li>
                 <div className="img-container">
-                  <img src={covid} className="img" />
+                  <img src={covid} className="img" alt="" />
                 </div>
               </ul>
             </dd>
@@ -104,37 +104,37 @@ const Certification = () => {
               <ul>
                 <li>Data Science</li>
                 <div className="img-container">
-                  <img src={ds} className="img" />
+                  <img src={ds} className="img" alt="" />
                 </div>
 
                 <li>Robotic Process Automation</li>
                 <div className="img-container">
-                  <img src={rpa} className="img" />
+                  <img src={rpa} className="img" alt="" />
                 </div>
 
                 <li>Machine Learning</li>
                 <div className="img-container">
-                  <img src={ml} className="img" />
+                  <img src={ml} className="img" alt="" />
                 </div>
 
                 <li>Java Script</li>
                 <div className="img-container">
-                  <img src={js} className="img" />
+                  <img src={js} className="img" alt="" />
                 </div>
 
                 <li>Internet of Things</li>
                 <div className="img-container">
-                  <img src={iot} className="img" />
+                  <img src={iot} className="img" alt="" />
                 </div>
 
                 <li>Math Refresher</li>
                 <div className="img-container">
-                  <img src={math} className="img" />
+                  <img src={math} className="img" alt="" />
                 </div>
 
                 <li>Kubernets</li>
                 <div className="img-container">
-                  <img src={kubernets} className="img" />
+                  <img src={kubernets} className="img" alt="" />
                 </div>
               </ul>
             </dd>
