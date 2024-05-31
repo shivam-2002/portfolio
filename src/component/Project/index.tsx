@@ -12,6 +12,7 @@ const Project = () => {
               <a
                 href="https://665202725e77840008eb1c80--code-editor-shivam.netlify.app/"
                 target="_blank"
+                rel="noreferrer"
               >
                 Online Compiler
               </a>
@@ -44,7 +45,11 @@ const Project = () => {
           </div>
           <div className="trans">
             <dt>
-              <a href="https://demoecommerce-ce0d9.web.app/" target="_blank">
+              <a
+                href="https://demoecommerce-ce0d9.web.app/"
+                target="_blank"
+                rel="noreferrer"
+              >
                 Ecommerce Website
               </a>
             </dt>
