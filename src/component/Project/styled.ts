@@ -73,6 +73,16 @@ const StyledProject = styled.div`
     margin-top: 20px;
   }
 
+  .video-container1 {
+    position: relative;
+    width: 100%; /* Adjust the width as needed */
+    padding-top: 70%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+    overflow: hidden;
+    background-color: black;
+    border-radius: 15px;
+    margin-top: 20px;
+  }
+
   .responsive-video {
     position: absolute;
     top: 0;
@@ -96,6 +106,10 @@ const StyledProject = styled.div`
 
   .trans11:hover {
     transform: scale(1.1);
+  }
+
+  .s-50 {
+    scale: 0.7;
   }
 `;
 

@@ -1,12 +1,59 @@
 import StyledProject from "./styled";
 import videoFile from "assets/final_code_editor.mov";
 import videoFile1 from "assets/ecommerce.mov";
+import chatDemo from "assets/chat-demo.mov";
 
 const Project = () => {
   return (
     <StyledProject>
       <div className="box-1" id="project">
         <dl>
+          <div className="trans">
+            <dt>
+              <a
+                href="https://message-shivam.netlify.app/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Real-Time Chat Application
+              </a>
+            </dt>
+            <dd>
+              <ul>
+                <li>
+                  Developed a real-time chat application: Built using FastAPI
+                  for the backend and React for the frontend, deployed on AWS
+                  and Netlify.
+                </li>
+                <li>
+                  Implemented WebSocket for real-time communication: Ensured
+                  instant messaging capabilities, enhancing user experience with
+                  seamless interactions.
+                </li>
+                <li>
+                  User authentication via email: Integrated secure email-based
+                  authentication to enable users to chat with each other.
+                </li>
+                <li>
+                  Deployment and Scalability: Utilized AWS for backend
+                  deployment and Netlify for frontend hosting, ensuring
+                  scalability and high availability.
+                </li>
+                <li>
+                  Secure Communication: Used self-signed SSL certificates to
+                  secure data transmission between clients and the server.
+                </li>
+                <br></br>
+                <div className="video-container1 trans11">
+                  <video className="responsive-video" muted autoPlay loop>
+                    <source src={chatDemo} type="video/mp4" />
+                    Your browser does not support the video tag.
+                  </video>
+                </div>
+              </ul>
+            </dd>
+          </div>
+
           <div className="trans">
             <dt>
               <a
