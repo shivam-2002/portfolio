@@ -99,6 +99,28 @@ const StyledHome = styled.div`
     transform: scale(1.1);
     color: grey;
   }
+  .icon {
+    width: 25px;
+    height: 25px;
+  }
+
+  .contact-ctn {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  font-size: 14px;
+  }
+
+  .contact-ctn > div {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+
+  word-wrap: break-word; /* Breaks long words to fit inside the container */
+  overflow-wrap: break-word; /* Provides better support for all browsers */
+  word-break: break-word;
+  }
 `;
 
 export default StyledHome;

@@ -8,6 +8,12 @@ import Experience from "component/Experience";
 import Project from "component/Project";
 import Skill from "component/Skill";
 import Certification from "component/Certification";
+import Footer from "component/Footer";
+import linkedInIcon from "assets/linkedin.svg";
+import phoneIcon from "assets/phone-call.png";
+import emailIcon from "assets/icons8-email-25.png";
+import cvIcon from "assets/cv.png";
+
 
 const Home = () => {
   const [activeId, setActiveId] = useState<string>("about");
@@ -25,6 +31,12 @@ const Home = () => {
               <img src={profilePic} alt="Profile Pic" className="profile-pic" />
             </div>
             <div className="name">Shivam Kumar</div>
+            <div className="contact-ctn">
+              <div><img src={emailIcon} className="icon"/>rahul.shivam64@gmail.com</div>
+              <div><img src={phoneIcon} className="icon"/>+91 7737722736</div>
+              <div><img src={linkedInIcon} className="icon"/> https://www.linkedin.com/in/shivam-kumar-4a7227192/</div>
+              <div><img src={cvIcon} className="icon"/> https://drive.google.com/file/d/1DlQW3faoRhZNKmNdY8_ZRnLMouIffjMU/view?usp=sharing</div>
+            </div>
             <div className="title-box">
               <div>
                 SDE@VaticAI | Ex - Assocatiate Software Developemnt
@@ -78,6 +90,7 @@ const Home = () => {
               <Route path="/certification" element={<Certification />} />
             </Routes>
           </div>
+          <Footer />
         </div>
       </div>
     </StyledHome>

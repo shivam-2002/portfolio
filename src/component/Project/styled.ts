@@ -111,6 +111,16 @@ const StyledProject = styled.div`
   .s-50 {
     scale: 0.7;
   }
+
+  .img-ctn {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  }
+
+  .img-ctn img {
+  width: 200px;
+  }
 `;
 
 export default StyledProject;

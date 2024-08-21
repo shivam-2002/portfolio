@@ -1,7 +1,18 @@
 import StyledProject from "./styled";
-import videoFile from "assets/final_code_editor.mov";
+import videoFile from "assets/polyglot-updated.mov";
 import videoFile1 from "assets/ecommerce.mov";
 import chatDemo from "assets/chat-demo.mov";
+
+import m1 from "assets/android/1.png";
+import m2 from "assets/android/2.png";
+import m3 from "assets/android/3.png";
+import m4 from "assets/android/4.png";
+import m5 from "assets/android/5.png";
+import m6 from "assets/android/6.png";
+import m7 from "assets/android/7.png";
+import m8 from "assets/android/8.png";
+import m9 from "assets/android/9.png";
+
 
 const Project = () => {
   return (
@@ -11,7 +22,81 @@ const Project = () => {
           <div className="trans">
             <dt>
               <a
-                href="https://message-shivam.netlify.app/"
+                href="https://polyglot.shivamtech.xyz/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Online Compiler
+              </a>
+            </dt>
+            <dd>
+              <ul>
+                <li>
+                  Developed a website that allows users to write and execute
+                  code in C, C++, Python, and Java language.
+                </li>
+                <li>
+                  Implemented functionality to convert code between these
+                  languages while switching.
+                </li>
+                <li>Auto suggestion is enabled.</li>
+                <li>
+                  Utilised React, CodeMirror, NodeJS, and Compilex for the tech
+                  stack and Google Gemini for AI tools.
+                </li>
+                <li>Hosted on Render and Netlify.</li>
+                <br></br>
+                <div className="video-container trans11">
+                  <video className="responsive-video" muted autoPlay loop>
+                    <source src={videoFile} type="video/mp4" />
+                    Your browser does not support the video tag.
+                  </video>
+                </div>
+              </ul>
+            </dd>
+          </div>
+
+          <div className="trans">
+            <dt>
+              <a
+                href="https://www.amazon.com/dp/B0DDMYNDHG/ref=apps_sf_sta"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Online Compiler (Android APP)
+              </a>
+            </dt>
+            <dd>
+              <ul>
+                <li>
+                Build an android app using Flutter, integrated with the same backend as the web-based
+Online Compiler. The app provides similar features like writing code, getting output,
+suggestions, and code conversion across different programming languages.
+                </li>
+                <li>
+                Used Flutter, FastAPI, and Google Gemini.
+                </li>
+                <li>Hosted on amazon app store.</li>
+                <br></br>
+                <div className="img-ctn">
+                  <img src={m1} />
+                  <img src={m2} />
+                  <img src={m3} />
+                  <img src={m4} />
+                  <img src={m5} />
+                  <img src={m6} />
+                  <img src={m7} />
+                  <img src={m8} />
+                  <img src={m9} />
+                </div>
+              </ul>
+            </dd>
+          </div>
+
+          <div className="trans">
+            <dt>
+              <a
+                href="https://chat.shivamtech.xyz/"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -47,43 +132,6 @@ const Project = () => {
                 <div className="video-container1 trans11">
                   <video className="responsive-video" muted autoPlay loop>
                     <source src={chatDemo} type="video/mp4" />
-                    Your browser does not support the video tag.
-                  </video>
-                </div>
-              </ul>
-            </dd>
-          </div>
-
-          <div className="trans">
-            <dt>
-              <a
-                href="https://665202725e77840008eb1c80--code-editor-shivam.netlify.app/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Online Compiler
-              </a>
-            </dt>
-            <dd>
-              <ul>
-                <li>
-                  Developed a website that allows users to write and execute
-                  code in C, C++, Python, and Java language.
-                </li>
-                <li>
-                  Implemented functionality to convert code between these
-                  languages while switching.
-                </li>
-                <li>Auto suggestion is enabled.</li>
-                <li>
-                  Utilised React, CodeMirror, NodeJS, and Compilex for the tech
-                  stack and Google Gemini for AI tools.
-                </li>
-                <li>Hosted on Render and Netlify.</li>
-                <br></br>
-                <div className="video-container trans11">
-                  <video className="responsive-video" muted autoPlay loop>
-                    <source src={videoFile} type="video/mp4" />
                     Your browser does not support the video tag.
                   </video>
                 </div>
